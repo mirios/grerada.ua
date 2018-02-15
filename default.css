@@ -1,0 +1,381 @@
+body {
+    margin: 4px;
+	padding: 0px;
+	background: #F8F8F8 url(images/overlay.png) repeat;
+	font-family: Times New Roman;
+	font-size: 14pt;
+
+}
+
+.class-h1 {
+	margin: 0;
+	padding: 0;
+}
+
+/** WRAPPER */
+.verx{
+	margin: -42px 0px;
+}
+.img {
+	box-shadow: 0 0 0 4px #ffcc00;
+}
+
+.br{
+	margin: -8px 0px;
+}
+
+#wrapper {
+	text-align: center;
+	max-width: 1400px;
+	width: 92%;
+	position: auto;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+/** HEADER */
+
+
+
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 530px;
+	border-radius: 5px;
+}
+/** LOGO */
+
+#logo {
+	position: absolute;
+	top: 3em;
+	right: 0;
+}
+/*
+			<div id="logo">
+				<h1 class="class-h1"><a class="a2" href="#" style="color: red"><b>Гречанівська сільська <br>рада<b></a></h1>
+			</div>
+
+*/
+
+/*Vipad*/
+#nav {
+  margin-top: 2.5em;
+  background: #101010;
+  box-shadow: 0 0 0 4px #ffcc00;
+}
+#nav ul li {
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.15em;
+}
+#nav ul li.current_page_item a {
+  border-top: 0.35em solid #ff3a2e;
+}
+#nav ul li.current_page_item1 a {
+  border-top: 0;
+}
+#nav ul li:last-child {
+  padding-right: 0;
+}
+#nav ul li ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background: #fff;
+  padding: .5em;
+  margin-top: .75em;
+  margin-left: 0em;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+  border-radius: .25em;
+}
+#nav ul li ul:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 5%;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 5px 8px 5px;
+  border-color: transparent transparent #ffffff transparent;
+}
+#nav ul li ul li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#nav ul li ul li a {
+  font-weight: normal;
+  font-size: .65em;
+  color: #5f7385;
+  padding: .5em;
+  display: block;
+  border-radius: .25em;
+}
+#nav ul li ul li a:hover {
+  border-top: none;
+  color: #2a333b;
+  background: #eaeaea;
+}
+#nav ul li ul li a:active {
+  position: relative;
+  top: 1px;
+}
+#nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 2.6;
+}
+#nav ul li a:hover {
+  border-top: 0.35em solid #1f262c;
+  color: #d9d9d9;
+}
+
+
+footer {
+	color: red;
+	margin-top:30px;
+	text-align:center;
+	padding:30px 10px;
+	border-top:1px solid #355100;
+}
+
+.clearfloat { 
+	clear:both;
+	height:0;
+	line-height: 0px;
+}	
+
+.a2{
+	text-decoration: none;
+	color: green;
+}
+
+.div_golovna {
+	margin: -17px 0px;
+	border-radius: 0 0 5px 5px;
+	background: white;
+	box-shadow: 0 0 0 4px #ffcc00;
+	text-align: left;
+	
+}
+
+.div_news {
+	margin: -17px 0px;
+	border-radius: 0 0 5px 5px;
+	background: #F8F8F8 url(images/1345626990_olyas549.jpg) repeat;
+	box-shadow: 0 0 0 4px #ffcc00;
+	
+}
+
+.div {
+	margin: -17px 0px;
+	border-radius: 0 0 5px 5px;
+	background: white;
+	box-shadow: 0 0 0 4px #ffcc00;
+	text-align: left;
+	
+}
+
+.plus{
+  margin: -2px 70px -3px -5px;
+  border: 1px solid #7a7b7e; /* Параметры рамки */
+  border-radius: 50%;
+}
+
+.coments{
+	background: #ffffff;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.7;
+position:fixed;
+bottom:50px;
+right: 5%;
+display:none;
+text-indent:-9999px;
+background: url('icon_top.png') no-repeat;
+z-index: 100;
+}
+
+.div_gallery {
+	margin: -17px 0px;
+	border-radius: 0 0 5px 5px;
+	background: #F8F8F8 url(images/954074558.jpg) repeat;
+	box-shadow: 0 0 0 4px #ffcc00;
+	
+}
+
+.h2-0{
+	font-family: Times New Roman;
+}
+
+   .fon_pod_rext_news {
+    background: #ffffff; /* Цвет фона под заголовком */
+    color: #000000; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+	margin-left: 25px;
+	margin-right: 25px;
+	font-family: Times New Roman;
+	text-align: left;
+   }
+   
+   .fon_pod_rext_news1 {
+    background: #ffffff; /* Цвет фона под заголовком */
+    color: #000000; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: -28px;
+	font-family: Times New Roman;
+	text-align: left;
+   }
+   
+.p1{
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+   
+.p0{
+	margin-left: 25px;
+	font-family: Times New Roman;
+	font-size: 25px;
+}
+
+.Zagolovok{
+	margin-left: 15px;
+	color: red;
+}
+.data{
+    background: #D9FFAD; /* Цвет фона под заголовком */
+    color: green; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+	text-align: left;
+	font-size: 22px;
+   }
+   
+   .text {
+	   margin: -50px 0px;
+   }
+   
+ .icon {
+	float: left;
+	border-radius: 100px;
+	width: 3%;
+	position: fixed;
+	margin: 0px 10px 0 5px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.icon:hover {
+-webkit-filter: contrast(160%);
+box-shadow: 5px 5px 5px #777;
+
+}
+  
+#data{
+	margin: 48px 0px;
+} 
+.stroke {
+    font: bold 3em Arial, sans-serif;
+    color: #0d3967;
+    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+	font-size: 40px;
+   }
+
+      #okno {
+	    z-index: 100;
+        width: 500px;
+        height: 95%;
+        text-align: center;
+        padding: 5px;
+        border: 3px solid #0000cc;
+        border-radius: 10px;
+        color: #0000cc;
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+		background: #ffffff;
+      }
+      #okno:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+	  
+	        #okno1 {
+	    z-index: 100;
+        width: 950px;
+        height: 95%;
+        text-align: center;
+        padding: 5px;
+        border: 3px solid #0000cc;
+        border-radius: 10px;
+        color: #0000cc;
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+		background: #ffffff;
+      }
+      #okno1:target {display: block;}
+	  
+ #layer1, #layer2, #layer3, #layer4 {
+    position: relative; /* Относительное позиционирование */
+   } 
+   #layer1 { z-index: 2; }
+   #layer2 { z-index: 1; }
+#date
+{
+float: left;
+width: 10%;
+margin: 20px 5px 5px 10px
+}
+#category
+{
+float: right;
+width: 90%;
+margin-top: -200px;
+padding: 0 10px 5px;
+}   
+
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 25px 7px 7px; /* Отступы вокруг картинки */
+   }
+.left_memu{
+	text-decoration: none;
+	font-size: 100%;
+}
+.li{list-style-type: none;}

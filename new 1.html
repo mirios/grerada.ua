@@ -1,0 +1,63 @@
+<html>
+  <head>
+      <title>Blank</title>
+<style>
+.menu {
+	width: 280px;
+}
+summary:focus {
+	outline: 0;
+}
+details > summary {
+	cursor:pointer;
+	background: lightblue;
+	margin:6px;
+	padding:8px;
+}
+details > summary:hover {
+	background: Lavender;
+}
+details > a {
+	display:block;
+	text-decoration: none;
+	color:#000;
+	font-size:13px;
+	margin:3px 6px 3px 18px;
+	padding: 4px;
+	background: AliceBlue;
+}
+details > a:hover {
+	background: #DFEFFF;
+	font-weight: bold;
+}
+details > a::before {
+	content: "- ";
+}
+.plus{
+text-decoration: none;
+  border: 1px solid #7a7b7e; /* Параметры рамки */
+  border-radius: 50%;
+font-size: 30px;
+}
+</style>
+  <head>
+  <body>
+    <div class="menu">
+  <details>
+    <summary>Пункт меню 4</summary>
+    <a href="#">субменю A</a>
+    <a href="#">субменю B</a>
+    <a href="#">субменю C</a>
+  </details>
+</div>
+<div>
+<a><button class="plus"><b>+  
+  <details>
+    <summary>Пункт меню 4</summary>
+    <a href="#">субменю A</a>
+    <a href="#">субменю B</a>
+    <a href="#">субменю C</a>
+  </details></b></button></a>
+</div>
+ </body>
+</html>

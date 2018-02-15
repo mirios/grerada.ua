@@ -1,0 +1,285 @@
+<html>
+<head>
+ <meta charset="utf-8">
+<title>Home</title>
+<link rel="shortcut icon" href="/images/Grechanivka_gd_gerb.ico" type="image/x-icon">
+<script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.4.4.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#products').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				effect: 'slide, fade',
+				crossfade: true,
+				slideSpeed: 200,
+				fadeSpeed: 500,
+				generateNextPrev: true,
+				generatePagination: false
+			});
+		});
+	</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+</head>
+<body>
+<style>
+ #layer1, #layer2, #layer3, #layer4 {
+    position: relative; /* Относительное позиционирование */
+   } 
+   #layer1 { z-index: 1; }
+   #layer2 { z-index: 2; }
+   
+   #blink {
+	-webkit-animation: blink 2s linear infinite; 
+	animation: blink 2s linear infinite; 
+	font-weight: bold; 
+	color: color: #F00; 
+}
+
+@-webkit-keyframes blink { 
+	0% { color: #F00; }
+	50% { color: #FBB; }
+	100% { color: #F00; }
+}
+
+@keyframes blink {  
+	0% { color: #F00; }
+	50% { color: #FBB; }
+	100% { color: #F00; } 
+}
+td {
+   vertical-align: top;
+   width: 33%;
+   padding: 5px; 
+   font-size: 18px;   
+}
+
+</style>
+<a href="https://www.facebook.com/miroslawwlasenko">
+<img src="facebook.jpg" class="icon">
+</a>
+    <div id="okno">
+      <img src="images/Графік роботи+.jpg" width="500px" height="93%"><br>
+      <a href="#" class="close">Завершити перегляд</a>
+    </div>
+	
+	    <div id="okno1">
+      <img src="images/прийом(+).jpg" width="950px" height="93%"><br>
+      <a href="#" class="close">Завершити перегляд</a>
+    </div>
+	<a href="#" class="scrollup">Наверх</a>
+<div align="center" class="blok" height="100%">
+<div id="wrapper">
+<table width="99%">
+<img src="images/bg.jpg" width="100%" class="img">
+</table>
+	<div class="verx">
+		<div id="layer2" align="center">
+		<nav id="nav" class="navigation">
+  <ul>
+    <li><a href="Головна.html">Головна</a></li>
+    <li><a href="Події.html">Події</a></li>
+    <li><a href="Галерея.html">Галерея</a></li>
+    <li><a href="Про нас.html">Про нас</a>
+		      <ul>
+        <li><a href="https://drive.google.com/open?id=11t_wOd78wvmO-X_2QAi2Y_jVDuc7RPcl" target="_blank">Історія</a></li>
+        <li><a href="404.html">Наш колектив</a></li>
+        <li><a href="Контакти.html">Контакти</a></li>
+      </ul>
+	</li>
+		<li><a href="404.html">Установи</a>
+	<ul>
+	    <li><a target="_blank" href="http://gre.klasna.com">Школа</a></li>
+        <li><a href="404.html">ДНЗ "Сонечко"</a></li>
+		<li><a href="404.html">Клуб</a></li>
+		<li><a href="404.html">ФАП</a></li>
+		<li><a href="404.html">Бібліотека</a></li>
+	</ul>
+	</li>
+	<li><img class="plus" src="images/+.jpg" width="22px" height="22px">
+	<ul>
+	<li><a href="Рішення сесії.html">Рішення сесії</a></li>
+	<li><a href="#okno">Графік роботи</a></li>
+        <li><a href="#okno1">Графік прийому</a></li>
+	<li><a href="404.html">Державні закупівлі</a></li>
+	<li><a href="Депутатський корпус.html">Депутатський корпус</a></li>
+	<li><a href="404.html">Звернення громадян</a></li>
+        <li><a href="404.html">Про зроблене <br> за поточний рік</a></li>
+	</ul>
+	</li>
+  </ul>
+</nav>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+	</div>
+	<div id="layer1" class="div_golovna">
+	<br>
+	<br>
+	<div align="center" width="800px">
+  <table border="1" style="margin: 25px 25px 30px 25px; width=100%; border-collapse:collapse;" width="800px">
+  <tr>
+  <th style="vertical-align: top;">Номер одномандатного <br>
+  виборчого округу</th>
+  <th>Прізвище, власне ім’я (усі власні<br>
+  імена), по батькові (за наявності)<br> 
+  обраного депутата</th>
+  <th style="text-align: center;">Місце роботи (заняття)</th>
+  </tr>
+  <tr>
+  <td>Виборчий округ № 1<br>
+  село Гречанівка:<br>
+  провулок Польовий
+  </td>
+  <td>Пугач Юрій Олександрович<br>
+  23.07.1965 року народження
+  </td>
+  <td style="text-align: center;">Не працює</td>
+  </tr>
+  <tr>
+  <td>Виборчий округ № 2<br>
+  cело Гречанівка:<br>
+  вулиця Роменська
+  </td>
+  <td>Кіріченко Ольга Миколоївна<br>
+  01.08.1956 року народження
+  </td>
+  <td style="text-align: center;">Головний бухгалтер <br>Гречанівська сільська рада</td>
+  </tr>
+  <tr>
+  <td>Виборчий округ № 3<br>
+  село Гречанівка:<br>
+  вулиця Центральна
+  </td>
+  <td>Романенко Юлія Валеріївна<br>
+  12.08.1977 року народження
+  </td>
+  <td style="text-align: center;">Завідуюча Гречанівською<br>
+  сільською бібліотекою
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Виборчий округ № 4<br>
+  село Гречанівка:<br>
+  вулиця Центральна
+  </td>
+  <td>Гришко Дмитро Васильович<br>
+  30.07.1958 року народження
+  </td>
+  <td style="text-align: center;">Не працює</td>
+  </tr>
+  <tr>
+  <td>Виборчий округ № 5<br>
+  село Гречанівка:<br>
+  вулиця Сумська</td>
+  <td>Мелет Віра Вікторівна<br>
+  07.08.1968 року народження</td>
+  <td style="text-align: center;"> Техпрацівник в<br>
+  Гречанівській ЗОШ І-ІІ ст.</td>
+  </tr>
+  <tr>
+  <td>Виборчий округ № 6<br>
+  село Гречанівка:<br>
+  вулиця Сумська</td>
+  <td>Любченко Надія Іванівна
+  <br>01.08.1985 року народження</td>
+  <td style="text-align: center;">Викладач хореографії<br>
+  в Липово Долинській <br>дитячій школі
+  </td>
+  </tr>  
+  <tr>
+  <td>Виборчий округ № 7<br>
+  село Гречанівка:<br>
+  вулиця Гагаріна</td>
+  <td>Романенко Людмила Михайлівна<br>
+  08.10.1973 року народження</td>
+  <td style="text-align: center;">Секретар Гречанівської <br>сільської ради</td>
+  </tr>  
+  <tr>
+  <td>Виборчий округ № 8<br>
+  село Гречанівка:<br>
+  вулиця Новоселівська</td>
+  <td>Харченко Михайло Іванович<br>
+  01.02.1964 року народження</td>
+  <td style="text-align: center;">Не працює</td>
+  </tr>  
+  <tr>
+  <td>Виборчий округ № 9<br>
+  село Гречанівка:<br>
+  вулиця Малинівська<br>
+  село Миколаївка:<br>
+  провулок Польовий<br>
+  провулок Шкільний<br>
+  вулиця Шевченка</td>
+  <td>Антоненко Наталія Іванівна<br>
+  27.08.1968 року народження</td>
+  <td style="text-align: center;">Листоноша<br>
+  ЦПЗ №12</td>
+  </tr>  
+  <tr>
+  <td>Виборчий округ № 10<br>
+  село Гречанівка:<br>
+  вулиця Русанівська</td>
+  <td>Козел Володимир Іванович<br>
+  30.05.1960 року народження</td>
+  <td style="text-align: center;">Не працює</td>
+  </tr>  
+  <tr>
+  <td>Виборчий округ № 11<br>
+  село Миколаївка:<br>
+  вулиця Шевченка<br>
+  провулок Ставковий</td>
+  <td>Кучмук Тетяна Миколоївна<br>
+  13.08.1967 року народження</td>
+  <td style="text-align: center;">Соціальний робітник<br>
+  Гадяцький Терцентр</td>
+  </tr>
+    <tr>
+  <td>Виборчий округ № 12<br>
+  село Миколаївка:<br>
+  провулок Зелений<br>
+  село Зелена Балка:<br>
+  вулиця Зеленобальська</td>
+  <td>Гіс Олександр Васильович<br>
+  16.08.1966 року народження</td>
+  <td style="text-align: center;">Не працює</td>
+  </tr>
+  </table>
+  <br>
+	</div>
+	</div>
+	</div>
+	</div>
+<footer bgcolor="#c0c0c0" id="layer2">
+        <p class="copyright">
+            Copyright &copy; 
+			<a href="Головна.html" class="a2">2018 Гречанівська сільська рада</a> 
+			| Designed by 
+			<a href="https://vk.com/id307692482" class="a2">Vlasenko M.</a>
+        </p>
+    </footer>
+</body>
+</html>

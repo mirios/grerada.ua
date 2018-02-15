@@ -1,0 +1,15 @@
+/* Gallery */
+.gallery img{
+	margin:5px;
+	border:2.5px solid #00cc00;
+	border-radius: 5px;
+}
+a.photo:hover img{
+	border: 2.5px solid #00cc00;
+	box-shadow: 0 0 20px 0 red;
+	-webkit-filter: drop-shadow(5px 0 grey);
+}
+
+.photo{
+}
+
