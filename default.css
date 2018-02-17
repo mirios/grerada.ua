@@ -351,6 +351,27 @@ box-shadow: 5px 5px 5px #777;
       }
       #okno1:target {display: block;}
 	  
+	        #okno2 {
+	    z-index: 100;
+        width: 62%;
+        height: 32%;
+        text-align: center;
+        padding: 5px;
+        border: 3px solid #0000cc;
+        border-radius: 10px;
+        color: #0000cc;
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+		background: #ffffff;
+		color: black;
+      }
+      #okno2:target {display: block;}
+	  
  #layer1, #layer2, #layer3, #layer4 {
     position: relative; /* Относительное позиционирование */
    } 
