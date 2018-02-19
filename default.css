@@ -1,4 +1,4 @@
-body {
+﻿body {
     margin: 4px;
 	padding: 0px;
 	background: #F8F8F8 url(images/overlay.png) repeat;
@@ -157,21 +157,28 @@ footer {
 	color: green;
 }
 
-.div_golovna {
-	margin: -17px 0px;
+.table_golovna {
+	margin: -3px 0px;
 	border-radius: 0 0 5px 5px;
 	background: white;
 	box-shadow: 0 0 0 4px #ffcc00;
 	text-align: left;
+	border-collapse: collapse;
+}
+
+.div_golovna {
+	border-radius: 0 0 5px 5px;
+	background: white;
+	text-align: left;
 	
 }
 
-.div_news {
+.table_news {
 	margin: -17px 0px;
 	border-radius: 0 0 5px 5px;
-	background: #F8F8F8 url(images/1345626990_olyas549.jpg) repeat;
 	box-shadow: 0 0 0 4px #ffcc00;
-	
+	background: white;
+	border-collapse: collapse;
 }
 
 .div {
@@ -208,12 +215,12 @@ background: url('icon_top.png') no-repeat;
 z-index: 100;
 }
 
-.div_gallery {
+.table_gallery {
 	margin: -17px 0px;
 	border-radius: 0 0 5px 5px;
-	background: #F8F8F8 url(images/954074558.jpg) repeat;
+	background: white;
 	box-shadow: 0 0 0 4px #ffcc00;
-	
+	border-collapse: collapse;
 }
 
 .h2-0{
@@ -236,7 +243,7 @@ z-index: 100;
     padding: 2px; /* Поля вокруг текста */
 	margin-left: 25px;
 	margin-right: 25px;
-	margin-top: -28px;
+
 	font-family: Times New Roman;
 	text-align: left;
    }
@@ -288,7 +295,7 @@ box-shadow: 5px 5px 5px #777;
 }
   
 #data{
-	margin: 48px 0px;
+	margin: 25px 0px;
 } 
 .stroke {
     font: bold 3em Arial, sans-serif;
@@ -380,7 +387,7 @@ box-shadow: 5px 5px 5px #777;
 #date
 {
 float: left;
-width: 10%;
+width: 80%;
 margin: 20px 5px 5px 10px
 }
 #category
