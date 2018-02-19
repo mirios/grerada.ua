@@ -1,0 +1,185 @@
+<html>
+<head>
+<meta>
+<title>Galleri</title>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="style1.css" media="screen" />
+<script type="text/javascript" src="./scripts/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="./scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("a.photo").fancybox({
+			transitionIn: 'elastic',
+			transitionOut: 'elastic',
+			speedIn: 500,
+			speedOut: 500,
+			hideOnOverlayClick: false,
+			titlePosition: 'over'
+		});
+	});
+	</script>
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+</head>
+<body>
+<style>
+ #layer1, #layer2, #layer3, #layer4 {
+    position: relative; /* Относительное позиционирование */
+   } 
+   #layer1 { z-index: 2; }
+   #layer2 { z-index: 1; }
+</style>
+<a href="https://www.facebook.com/grerada">
+<img src="facebook.jpg" class="icon">
+</a>
+    <div id="okno">
+      <img src="images/Графік роботи+.jpg" width="500px" height="93%"><br>
+      <a href="#" class="close">Завершити перегляд</a>
+    </div>
+	
+	    <div id="okno1">
+      <img src="images/прийом(+).jpg" width="950px" height="93%"><br>
+      <a href="#" class="close">Завершити перегляд</a>
+    </div>
+	
+		<a href="#" class="scrollup">Наверх</a>
+<div align="center" class="blok" height="100%">
+<div id="wrapper">
+<table width="99%" >
+<img src="images/bg.jpg" width="100%" class="img">
+</table>
+	<div class="verx">
+		<div id="layer1" align="center">
+<nav id="nav" class="navigation">
+  <ul>
+    <li><a href="Головна.html">Головна</a></li>
+    <li><a href="Події.html">Події</a></li>
+    <li class="current_page_item"><a href="Галерея.html">Галерея</a></li>
+    <li><a href="Про нас.html">Про нас</a>
+		      <ul>
+        <li><a href="https://drive.google.com/open?id=11t_wOd78wvmO-X_2QAi2Y_jVDuc7RPcl" target="_blank">Історія</a></li>
+        <li><a href="404.html">Наш колектив</a></li>
+        <li><a href="Контакти.html">Контакти</a></li>
+      </ul>
+	</li>
+		<li><a href="404.html">Установи</a>
+	<ul>
+	    <li><a target="_blank" href="http://gre.klasna.com">Школа</a></li>
+        <li><a href="ДНЗ Сонечко.html">ДНЗ "Сонечко"</a></li>
+		<li><a href="404.html">Клуб</a></li>
+		<li><a href="404.html">ФАП</a></li>
+		<li><a href="404.html">Бібліотека</a></li>
+	</ul>
+	</li>
+	<li><img class="plus" src="images/+.jpg" width="22px" height="22px">
+	<ul>
+	<li><a href="Рішення сесії.html">Рішення сесії</a></li>
+	<li><a href="#okno">Графік роботи</a></li>
+        <li><a href="#okno1">Графік прийому</a></li>
+	<li><a href="404.html">Державні закупівлі</a></li>
+	<li><a href="Депутатський корпус.html">Депутатський корпус</a></li>
+	<li><a href="404.html">Звернення громадян</a></li>
+        <li><a href="404.html">Про зроблене <br> за поточний рік</a></li>
+	</ul>
+	</li>
+  </ul>
+</nav>
+</div>
+    <script src="js/index.js"></script>
+	</div>
+	<table width="100%" id="layer2" class="table_gallery">
+	<td style="vertical-align: top; height: 100%; background: #F8F8F8 url(images/954074558.jpg) repeat; padding: 50px 10px 10px 10px;">
+			<div id="layer2">
+			<br>
+			<div align="center" class="galereiy_huruna">
+			  <div class="picture">
+    <a rel="gallery" class="photo" href="gallery_img/big/01.jpg" 
+	title="Галерея№1">
+	<figure class="pidpus">
+	<img src="gallery_img/big/Галерея№1.jpg" width="200" height="150"/>
+	<figcaption class="pidpus_text">Галерея№1</figcaption>
+	</figure>
+	</a>
+    <div class="picture2">
+	<a rel="gallery" class="photo" href="gallery_img/big/02.jpg" 
+	title="Галерея№1"><img src="gallery_img/big/02.jpg" width="300" height="200"></a>
+	<a rel="gallery" class="photo" href="gallery_img/big/03.jpg" 
+	title="Галерея№1"><img src="gallery_img/big/03.jpg" width="300" height="200"></a>
+	<a rel="gallery" class="photo" href="gallery_img/big/04.jpg" 
+	title="Галерея№1"><img src="gallery_img/big/04.jpg" width="300" height="200"></a>
+	<a rel="gallery" class="photo" href="gallery_img/big/05.jpg" 
+	title="Галерея№1"><img src="gallery_img/big/05.jpg" width="300" height="200"></a>
+	<a rel="gallery" class="photo" href="gallery_img/big/06.jpg" 
+	title="Галерея№1"><img src="gallery_img/big/06.jpg" width="300" height="200"></a>
+	</div>
+</div>
+
+			  <div class="picture">
+    <a rel="gallery" class="photo" href="gallery_img/ostniy_dzvonik/01.jpg" 
+	title="Галерея№2">
+	<figure class="pidpus">
+	<img src="gallery_img/ostniy_dzvonik/ostniy_dzvonik.jpg" width="200" height="150"/>
+	<figcaption class="pidpus_text">Галерея№2</figcaption>
+	</figure>
+	</a>
+    <div class="picture2">
+	<a rel="gallery" class="photo" href="gallery_img/ostniy_dzvonik/02.jpg" 
+	title="Галерея№2"><img src="gallery_img/ostniy_dzvonik/02.jpg" width="300" height="200"></a>
+	<a rel="gallery" class="photo" href="gallery_img/ostniy_dzvonik/03.jpg" 
+	title="Галерея№2"><img src="gallery_img/ostniy_dzvonik/03.jpg" width="300" height="200"></a>
+	</div>
+</div>		  
+</div>
+			</div>
+			</td>
+			<td width="200px" style="padding: 50px 10px 10px 10px; vertical-align: top;"> 
+	<br>
+	<div>
+				<object type='application/x-shockwave-flash' data='10.swf' width='200' height='200'> 
+<param name='movie' value='10.swf'> 
+</object>
+<br>
+<br>
+	<!------Do not change code------>
+	<a target="_blank" href="http://www.calendian.com/%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80-2.html">
+	<img border="0" src="http://www.calendian.com/gen/uk.png" width="200" alt="Календар - Українська, Calendian">
+	</a><!------Do not change code------>
+	<br>
+	<br>
+	
+	<br>
+	<br>
+	<a href="https://drive.google.com/open?id=11t_wOd78wvmO-X_2QAi2Y_jVDuc7RPcl" target="_blank"><img src="images/Історія.jpg" width="200" height="265" alt="pic"></a>
+	</div>
+			</td>
+			</table>
+			</div>
+			</div>
+<footer id="layer2">
+        <p class="copyright">
+            Copyright &copy; 
+			<a href="Головна.html" class="a2">2018 Гречанівська сільська рада</a> 
+			| Designed by 
+			<a href="https://vk.com/id307692482" class="a2">Vlasenko M.</a>
+        </p>
+    </footer>
+</body>
+</html>
