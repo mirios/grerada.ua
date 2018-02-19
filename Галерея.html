@@ -164,7 +164,27 @@ return false;
 	</a><!------Do not change code------>
 	<br>
 	<br>
-	
+	<script type="text/javascript">
+          (function(d,u,n,s,e,t){
+            n=d;
+            s="uqid";
+            while(n && n.nodeName!="SCRIPT");
+              n=n[n["firebugIgnore"]?"previousSibling":"lastChild"];
+                if(n.id){
+                    e=n.id
+                } else {
+                    for (t=0;d.getElementById(s+t);t++);
+                e=n.id=s+t;
+            }
+            u+=e;
+            t=d.createElement("SCRIPT");
+            t.type="text/javascript";t.charset="utf-8";t.async=t.defer=!0;
+            n.parentNode.insertBefore(t,n);
+            t.src=u;
+          })(document, "//weather.rambler.ru/get_informer/?t=3&p1=1&p2=2&geo_id=149019&rmd=");</script>
+<noscript>
+    <iframe scrolling="no" src="//weather.rambler.ru/get_informer/?h=1&t=3&p1=1&p2=2&geo_id=149019&rmd=" style="width:200px;height:190px;border:0px;"></iframe>
+</noscript>
 	<br>
 	<br>
 	<a href="https://drive.google.com/open?id=11t_wOd78wvmO-X_2QAi2Y_jVDuc7RPcl" target="_blank"><img src="images/Історія.jpg" width="200" height="265" alt="pic"></a>
