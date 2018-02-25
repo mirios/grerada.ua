@@ -175,8 +175,15 @@ return false;
 	<td width="200px" style="padding: 50px 10px 10px 10px; vertical-align: top;">
 	<br>
         <div class="clocks" id="layer2">
-            <canvas id="canvas" width="200" height="200" style="background: radial-gradient(circle, #f9e497, #3366ff, #3333ff); border-radius: 10px;"></canvas>
+            <canvas id="canvas" width="200" height="200" style="background: radial-gradient(circle, #f9e497, #3366ff); border-radius: 10px;"></canvas>
         </div>
+		<br>
+<br>
+	<div id="MeteoInformerWrap">
+<script type="text/javascript" src="http://meteo.ua/var/informers.js"></script>
+<script type="text/javascript">
+makeMeteoInformer("http://meteo.ua/informer/get.php?cities=14819&w=200&lang=ua&rnd=1&or=vert&clr=6&dt=today&style=classic",200,232);
+</script></div>
 <br>
 <br>
 	<!------Do not change code------>
