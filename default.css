@@ -38,7 +38,14 @@
 
 /** HEADER */
 
+.tyt {
+	color: blue;
+	text-decoration: none;
+}
 
+.tyt:hover {
+	text-decoration: underline;
+}
 
 #header {
 	position: relative;
@@ -290,10 +297,15 @@ z-index: 100;
 }
  
 .icon:hover {
--webkit-filter: contrast(160%);
-box-shadow: 5px 5px 5px #777;
-
-}
+	-webkit-filter: contrast(160%);
+	/*box-shadow: 1px 0px 0.5px 1px #777;*/
+	-webkit-transform: rotate(-370deg);
+	-moz-transform: rotate(-370deg);
+	-o-transform: rotate(-370deg);
+	-ms-transform: rotate(-370deg);
+	transform: rotate(-370deg);
+    border: 3px solid #00ff00;
+	}
   
 #data{
 	margin: 25px 0px;
