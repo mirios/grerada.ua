@@ -289,11 +289,12 @@ z-index: 100;
 	width: 3%;
 	position: fixed;
 	margin: 0px 10px 0 5px;
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	border: 2px solid rgba(0,0,0,0);
 }
  
 .icon:hover {
